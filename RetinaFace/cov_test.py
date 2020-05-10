@@ -12,7 +12,7 @@ scales = [640, 1080]
 
 count = 1
 
-gpuid = 0
+gpuid = -1
 #detector = RetinaFaceCoV('./model/mnet_cov1', 0, gpuid, 'net3')
 detector = RetinaFaceCoV('./model/mnet_cov2', 0, gpuid, 'net3l')
 
