@@ -7,7 +7,7 @@ import numpy as np
 
 from ..logger import logger
 from .bbox_transform import bbox_overlaps, bbox_transform
-from rcnn.config import config
+from ..config import config
 import math
 import cv2
 import PIL.Image as Image

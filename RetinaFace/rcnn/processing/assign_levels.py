@@ -1,4 +1,4 @@
-from rcnn.config import config
+from ..config import config
 import numpy as np
 
 
@@ -20,7 +20,7 @@ def add_assign_targets(roidb):
     given roidb, add ['assign_level']
     :param roidb: roidb to be processed. must have gone through imdb.prepare_roidb
     """
-    print 'add assign targets'
+    print('add assign targets')
     assert len(roidb) > 0
     assert 'boxes' in roidb[0]
 
