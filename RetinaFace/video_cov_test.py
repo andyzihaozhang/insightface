@@ -1,14 +1,10 @@
 import cv2
-import sys
-import numpy as np
 import time
-import os
-import glob
 from retinaface_cov import RetinaFaceCoV
 
 thresh = 0.8
 mask_thresh = 0.5
-scales = [0.5]
+scales = [0.4]
 gpu_id = -1  # do not use GPU
 
 detector = RetinaFaceCoV('./model/mnet_cov2', 0, gpu_id, 'net3l')
